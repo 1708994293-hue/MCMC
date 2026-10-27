@@ -20,3 +20,14 @@
 - 首页可见欢迎帖及纪念帖 Pinned 标记；纪念帖作者为 Sueleven。系统欢迎帖目前显示作者 system，后续编辑前以现有内容为准。
 - 限制：尚未检查具体设置值、普通用户注册/发帖、置顶期限和图片署名。
 - 证据：<https://mcmc-alumni.discourse.group/>、<https://mcmc-alumni.discourse.group/admin>。
+
+### OP-003 · 启用澳大邮箱域名准入
+
+- 修改前：`allowed_email_domains` 为空；后台显示 Free Plan。
+- 修改后：`allowed_email_domains = um.edu.mo`。界面说明明确包含其子域名，因此覆盖 `connect.um.edu.mo`，无需通配符或重复域名。
+- 原因：落实用户要求的澳大邮箱筛选，同时覆盖终身邮箱；不等同于满珍身份认证。
+- 验证：保存完成后重新加载同一设置页，仍显示 um.edu.mo，未保存提示消失；当前管理员会话正常。
+- 未改动：现有账号、角色、新用户入站审批、其他反垃圾设置。
+- 限制：尚无真实普通新账号完成端到端注册测试；Discourse ID 邮箱需满足站点准入。无可用澳大邮箱的毕业生需先联系项目组，不能承诺邀请自动绕过限制。
+- 回退：在同一设置项清空允许域名并保存，恢复本轮前状态。
+- 证据：<https://mcmc-alumni.discourse.group/admin/site_settings/category/all_results?filter=allowed_email_domains>。
