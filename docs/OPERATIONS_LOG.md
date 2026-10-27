@@ -86,3 +86,11 @@
 - 同步只读核验：Moderation 中 New topic approval = No one、New reply approval = No one；本步没有修改审核配置。
 - 回退：清空分类 6 的标题提示和普通正文模板，保存栏目。
 - 证据：<https://mcmc-alumni.discourse.group/c/student-alumni-q-a/edit/general>。
+
+### OP-010 · 添加机会分享模板
+
+- 修改对象：Opportunities & Resources（分类 9），原标题提示和正文模板为空。
+- 修改后：正文引导填写机会简介、适用对象、地点与时间、含时区的截止日期、原始来源/申请链接及相关利益关系；标题提示为 `Opportunity name and deadline / 机会名称与截止日期`。
+- 验证：首次刷新发现正文已保存但标题提示未保留；补填并等待未保存状态出现后单独保存，再次刷新确认两项均保留。副本为 docs/site-content/template-opportunities.md。
+- 回退：清空分类 9 的标题提示和正文模板并保存。
+- 证据：<https://mcmc-alumni.discourse.group/c/opportunities-resources/9>（Edit this category → Template）。
