@@ -31,3 +31,13 @@
 - 限制：尚无真实普通新账号完成端到端注册测试；Discourse ID 邮箱需满足站点准入。无可用澳大邮箱的毕业生需先联系项目组，不能承诺邀请自动绕过限制。
 - 回退：在同一设置项清空允许域名并保存，恢复本轮前状态。
 - 证据：<https://mcmc-alumni.discourse.group/admin/site_settings/category/all_results?filter=allowed_email_domains>。
+
+### OP-004 · 创建成员身份和书院关系字段
+
+- 修改前：User fields 页面显示没有自定义字段。
+- OP-004a：新增 `Member status / 成员身份`（ID 1），下拉选项为在校生、毕业生、澳大教职员、其他澳大成员；仅新注册必填，可编辑，公开资料页可见；说明明确自填不等于认证。
+- OP-004b：新增 `MCMC connection / 与满珍的关系`（ID 2），下拉选项为满珍在校生、满珍毕业生、满珍教职员、其他澳大成员；仅新注册必填，可编辑，不在公开资料页或用户卡显示。
+- 验证：两次保存均显示 User field saved，列表显示正确的名称、类型、公开可见性及编辑标记。旧用户不被强制补填（采用 On signup，而非 For all users）。
+- 限制：尚未以普通新账号走完注册，未把自填关系用作自动授权依据。
+- 回退：可编辑对应字段为 Optional，关闭公开资料显示；不要直接删除已收集的数据。
+- 证据：<https://mcmc-alumni.discourse.group/admin/config/user-fields>。
