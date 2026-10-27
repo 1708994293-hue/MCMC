@@ -2,8 +2,6 @@
 
 更新时间：2026-10-27。先读 README、[CURRENT_STATE](CURRENT_STATE.md) 和 [OPERATIONS_LOG](OPERATIONS_LOG.md)，再处理最新任务。本文件负责快速接手。
 
-**会议材料：** [10月28日组会｜近期主要进展](https://github.com/users/1708994293-hue/projects/1/views/1?pane=info&statusUpdateId=300671) 已直接写入 Project 页面的 Status updates，含五项主要进展、验证边界和四个讨论问题；这是会前汇报材料，不是会议纪要。
-
 ## 一分钟了解现状
 
 - 项目：澳门大学满珍纪念书院毕业生链接平台，名称 MCMC Alumni Network。
