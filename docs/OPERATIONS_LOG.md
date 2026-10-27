@@ -107,3 +107,12 @@
 - 将侧栏标题缩短为 Start here / 入门，链接标签缩短为 Share / 分享机会、Introduce / 自我介绍；目标链接和全站可见性保持原值。
 - 保存并确认全站显示，刷新后核对三个入口完整显示。已发布的欢迎帖仍为修订 4；关闭本轮留下的同内容编辑草稿，没有新增帖子。
 - 页面效果截图仅存本地 outputs/mcmc-welcome-2026-10-27.png，未上传带登录状态的截图至公开仓库。
+
+### OP-013 · 审批、栏目权限和模板实测
+
+- 只读核对：must_approve_users=true；auto_approve_email_domains 为空；approve_post_count=0；approve_unless_allowed_groups 与 approve_new_topics_unless_allowed_groups 均为 admins、moderators、trust_level_0；approve_suspect_users=true；approve_unless_staged=false。保持原值。
+- 旧搜索词 first_post_typing_time 当前返回 Fast typing threshold，实际键 fast_typing_threshold，值 disabled。快速输入检测仍关闭。
+- Staff 安全页提示这是预置分类，安全设置不能编辑；未显示可编辑权限矩阵。未修改，也未以普通用户或访客实测其可见性。
+- 分别从问答（6）、机会分享（9）、自我介绍（11）点击 New Topic，标题提示和各自正文模板均自动载入；检查后关闭本轮测试草稿，没有发布测试帖子。
+- 本轮欢迎帖编辑草稿曾在刷新后恢复，确认已发布内容一致后再次关闭，并等待编辑框消失；不影响已发布修订 4。
+- 验证限制：以上模板检查使用管理员会话；没有创建新用户，没有模拟邮箱验证、入站审批或普通用户最终发布。完整注册与普通发帖仍待测试，反垃圾检查仍可能触发审核。
