@@ -52,3 +52,19 @@
 - 执行恢复：创建第三个选填字段时页面尚未进入表单，读取当前状态后重新打开；此前两个字段已保存，未重复创建。
 - 回退：关闭相关字段公开显示或修改说明；不直接删除成员已填写的数据。
 - 证据：<https://mcmc-alumni.discourse.group/admin/config/user-fields>。
+
+### OP-006 · 复核资料字段和现有栏目
+
+- 重新进入字段 1、2、3 的编辑页：字段 1、2 确认为 On signup；字段 3 为 Optional；可见性、可编辑及注册表单显示符合 OP-004/005 记录。
+- 分类页当前实际显示 10 个栏目（Announcements、General、Staff、Student–Alumni Q&A、Introductions、Site Feedback、Careers & Internships、Further Study、Opportunities & Resources、Events & Meetups），未显示 Uncategorized。
+- Staff 的栏目说明称管理员/版主私密讨论，实际权限矩阵仍待核验，不能仅凭描述保证访问控制。
+- 证据：<https://mcmc-alumni.discourse.group/categories>。
+
+### OP-007 · 更新既有欢迎帖
+
+- 修改对象：主题 5 的首帖，作者保持 system，未创建重复欢迎帖；编辑历史从第 3 版变为第 4 版。
+- 修改前：一般用途说明，入门步骤只有栏目名称，没有直接入口和具体准入说明。
+- 修改后：加入 Ask Alumni、Share an Opportunity、Introduce Yourself 三个真实链接；说明澳大邮箱、现有新账号入站审核、成员字段可见性，以及保护隐私、机会来源/截止时间、举报与 TL4 非身份认证。
+- 验证：保存后重新加载主题，三个入口、双语说明和第 4 版编辑历史均可见。首页此前的 Pinned 与个人已读后的 Unpinned 不混为同一状态，本次未改置顶范围。
+- 原文和更新后的 Markdown 保存在 docs/site-content，随本轮资料提交，便于回退；也可通过论坛编辑历史恢复第 3 版。
+- 证据：<https://mcmc-alumni.discourse.group/t/welcome-to-mcmc-alumni-network/5>。
