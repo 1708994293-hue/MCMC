@@ -76,3 +76,13 @@
 - 验证：保存后重新加载分类页，三个链接仍出现在侧栏；链接均指向此前核对过的真实站内目标。这里只增加导航，不更改目标页面的访问权限。
 - 回退：通过 Edit custom section 编辑或移除这一新建分区。
 - 证据：<https://mcmc-alumni.discourse.group/categories>。
+
+### OP-009 · 添加问答栏目发帖模板并核对审核
+
+- 修改对象：Student–Alumni Q&A（分类 6）的 Template。
+- 修改前：标题提示与正文模板均为空。
+- 修改后：标题提示 `One clear question / 用一句话写清你的问题`；正文分为背景、具体问题、已尝试的方法、相关时间（选填），附中英文与隐私提示。使用普通 Markdown 预填模板，不启用额外表单模式。
+- 验证：保存后重新加载栏目编辑页，标题提示、正文与预览保留。模板副本为 docs/site-content/template-questions.md。
+- 同步只读核验：Moderation 中 New topic approval = No one、New reply approval = No one；本步没有修改审核配置。
+- 回退：清空分类 6 的标题提示和普通正文模板，保存栏目。
+- 证据：<https://mcmc-alumni.discourse.group/c/student-alumni-q-a/edit/general>。
