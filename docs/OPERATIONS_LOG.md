@@ -41,3 +41,14 @@
 - 限制：尚未以普通新账号走完注册，未把自填关系用作自动授权依据。
 - 回退：可编辑对应字段为 Optional，关闭公开资料显示；不要直接删除已收集的数据。
 - 证据：<https://mcmc-alumni.discourse.group/admin/config/user-fields>。
+
+### OP-005 · 创建三个选填资料字段
+
+- OP-005a：新增 `Graduation year / 毕业年份`（ID 3，Text）。
+- OP-005b：新增 `Programme / field / 专业或行业`（ID 4，Text）。
+- OP-005c：新增 `How I can help / 我能提供的帮助`（ID 5，Textarea）。
+- 共同设置：Optional、可自行编辑、填写后公开资料页显示、不显示在注册表单、不显示在用户卡、不启用搜索索引。描述说明可留空及避免私人联系方式和保密信息。
+- 验证：每个字段保存后出现 User field saved，列表已列出五个字段及正确类型/可见性；未替任何成员填写资料。
+- 执行恢复：创建第三个选填字段时页面尚未进入表单，读取当前状态后重新打开；此前两个字段已保存，未重复创建。
+- 回退：关闭相关字段公开显示或修改说明；不直接删除成员已填写的数据。
+- 证据：<https://mcmc-alumni.discourse.group/admin/config/user-fields>。
