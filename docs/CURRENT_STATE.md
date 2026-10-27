@@ -10,7 +10,7 @@
 | 后台方案 | Free Plan；本轮未升级 |
 | allowed_email_domains | um.edu.mo；由空值改为该域名，保存刷新确认；UI 说明自动包含子域名 |
 | 包含示例 | @um.edu.mo、@connect.um.edu.mo；邮箱不是满珍身份认证 |
-| must_approve_users | true，保持原值；新用户登录前仍需管理员或版主批准 |
+| must_approve_users | false；用户在首轮优化后明确要求取消新账号人工审批，已保存刷新确认 |
 | auto_approve_email_domains | 空，保持原值 |
 | allow_new_registrations / invite_only | true / false，保持原值 |
 | login_required | false，保持原值；内容默认按公开阅读理解 |
@@ -26,15 +26,15 @@
 | --- | --- | --- | --- | --- |
 | 1 | Member status / 成员身份，Dropdown | On signup | 显示 | 显示 |
 | 2 | MCMC connection / 与满珍的关系，Dropdown | On signup | 显示 | 不显示 |
-| 3 | Graduation year / 毕业年份，Text | Optional | 不显示 | 填写后显示 |
+| 3 | MCMC cohort / 满珍届别，Text | On signup | 显示 | 不显示 |
 | 4 | Programme / field / 专业或行业，Text | Optional | 不显示 | 填写后显示 |
 | 5 | How I can help / 我能提供的帮助，Textarea | Optional | 不显示 | 填写后显示 |
 
-身份选项：在校生、毕业生、澳大教职员、其他澳大成员。满珍关系选项：满珍在校生、满珍毕业生、满珍教职员、其他澳大成员，均为中英双语。两个必填字段仅要求新注册者填写，不强迫全部现有用户补填；其余字段说明提醒可留空，勿填写私人标识或联系方式。所有值自报，不能充当认证。
+身份选项：在校生、毕业生、澳大教职员、其他澳大成员。满珍关系选项：满珍在校生、满珍毕业生、满珍教职员、其他澳大成员，均为中英双语。现在三个字段仅要求新注册者必填，不强迫全部现有用户补填。满珍届别复用原毕业年份字段 ID 3，保留原值：毕业生填“2024届”等毕业届别，在校生填“预计2028届”等预计年份，其他澳大成员如实说明关系。其余两个字段选填，勿填写私人标识或联系方式。所有值自报，不能充当认证。
 
 ## 引导与模板
 
-- 欢迎主题 5 原位更新为双语介绍、三个入口、注册说明和隐私提示；作者仍为 system，现修订 4。
+- 欢迎主题 5 原位更新为双语介绍、三个入口、注册说明和隐私提示；作者仍为 system，现修订 5，已说明免人工审批及必填届别。
 - 全站侧栏 Start here / 入门：Ask Alumni / 提问 → 分类 6；Share / 分享机会 → 分类 9；Introduce / 自我介绍 → 主题 14。
 - 分类 6：具体问题、个人背景、已做尝试、可选时间；标题提示 One clear question / 用一句话写清你的问题。
 - 分类 9：机会内容、条件、时间地点、截止时间及时区、原始来源、关系披露；标题提示 Opportunity name and deadline / 机会名称与截止日期。
@@ -54,7 +54,7 @@
 | approve_unless_staged | false |
 | 问答分类 New topic approval / New reply approval | No one / No one |
 
-以上支持普通成员无需常规逐帖预审的意图，但可疑行为及其他反垃圾规则仍可能进入审核。新账号批准入站是另一环节，未关闭。普通成员实际发布结果尚未测试。
+以上支持普通成员无需常规逐帖预审的意图，但可疑行为及其他反垃圾规则仍可能进入审核。新账号人工审批已按后续明确指示关闭；合规邮箱仍须完成正常验证和必填资料。普通成员实际注册及发布结果尚未完整测试。hide_new_user_profiles 仍为 true，关闭 must_approve_users 后，低等级新用户在首次发帖前隐藏资料的既有规则可能开始适用。
 
 ## 分类与真实内容入口
 

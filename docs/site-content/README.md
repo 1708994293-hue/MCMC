@@ -4,7 +4,8 @@
 
 | 文件 | 对应内容 |
 | --- | --- |
-| welcome.md | 主题 5 当前欢迎正文，修订 4 |
+| welcome.md | 主题 5 当前欢迎正文，修订 5；免人工审批与必填届别 |
+| welcome-before-auto-admission-2026-10-27.md | 关闭新账号人工审批前的欢迎正文，修订 4 |
 | welcome-before-2026-10-27.md | 本轮修改前欢迎正文，仅用于比较或恢复 |
 | template-questions.md | Student–Alumni Q&A（分类 6）正文模板 |
 | template-opportunities.md | Opportunities & Resources（分类 9）正文模板 |

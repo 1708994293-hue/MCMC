@@ -16,13 +16,17 @@ Alumni: a short answer about your own experience can make a difference. Students
 
 ## Joining and your profile / 注册与个人资料
 
-Register using a UM email ending in **@um.edu.mo** or a subdomain such as **@connect.um.edu.mo**. New accounts currently require administrator approval before first access; this is separate from routine posting. If you no longer have a working UM email, contact the project team through your existing college or alumni contacts before registering.
+Register using a UM email ending in **@um.edu.mo** or a subdomain such as **@connect.um.edu.mo**. New accounts that meet the email requirement and complete the required signup details and email verification do not need manual administrator approval. If you no longer have a working UM email, contact the project team through your existing college or alumni contacts before registering.
 
-请使用上述澳大邮箱注册。新账号目前仍需管理员批准入站，这与日常发帖审核不同；没有可用澳大邮箱的毕业生，请先通过已有书院或校友联络渠道联系项目组。
+请使用上述澳大邮箱注册，填写必填资料并完成邮箱验证后，无需等待管理员人工审批。没有可用澳大邮箱的毕业生，请先通过已有书院或校友联络渠道联系项目组。
 
-New members fill in member status and their connection to MCMC. These are self-reported, not identity verification. Your MCMC-connection field is not shown on your public profile. Graduation year, programme/industry and ways you can help are optional profile details; fill them in only if you are comfortable making them public.
+New members must fill in **member status, connection to MCMC and MCMC cohort**. Alumni should enter their graduation cohort (e.g. Class of 2024); current students should enter their expected cohort (e.g. Expected 2028). Other UM members should state their actual connection instead of claiming to be an MCMC alumnus.
 
-新注册者需填写成员身份和与满珍的关系，均为自填信息，不代表身份认证。“与满珍的关系”不显示在公开资料页；毕业年份、专业/行业及可提供帮助为选填，填写后会公开显示。
+新注册者须填写**成员身份、与满珍的关系和满珍届别**。毕业生填写毕业届别（如“2024届”），在校生填写预计毕业届别（如“预计2028届”）；其他澳大成员请如实说明关系，无需冒称满珍校友。
+
+These details are self-reported, not identity verification. Your MCMC connection and cohort are not shown on your public profile. Programme/industry and ways you can help remain optional; fill them in only if you are comfortable making them public. Normal anti-spam checks still apply.
+
+这些信息均为自填，不代表身份认证。“与满珍的关系”和“满珍届别”不在公开资料页展示；专业/行业及可提供帮助仍为选填，填写后可在公开资料页显示。正常的反垃圾检查继续生效。
 
 ## Share thoughtfully / 分享前请留意
 
