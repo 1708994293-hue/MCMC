@@ -94,3 +94,10 @@
 - 验证：首次刷新发现正文已保存但标题提示未保留；补填并等待未保存状态出现后单独保存，再次刷新确认两项均保留。副本为 docs/site-content/template-opportunities.md。
 - 回退：清空分类 9 的标题提示和正文模板并保存。
 - 证据：<https://mcmc-alumni.discourse.group/c/opportunities-resources/9>（Edit this category → Template）。
+
+### OP-011 · 自我介绍栏目模板
+
+- 修改前：Introductions（分类 11）的标题提示与正文模板为空。
+- 修改后：加入简单背景、想了解什么、愿意提供什么帮助的双语模板，提醒只分享愿意公开的信息；允许删除不适用的小标题。
+- 验证：保存后刷新，标题提示和三段正文均保留。未发布测试主题；普通用户端效果待端到端测试。
+- 证据：分类编辑页 Template；正文副本 docs/site-content/template-introductions.md。
