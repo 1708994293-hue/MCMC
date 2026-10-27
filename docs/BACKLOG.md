@@ -5,16 +5,16 @@
 | 顺序 | 讨论事项 | 当前状态 | 跟踪链接 |
 | --- | --- | --- | --- |
 | 1，最高优先 | 用户吸引与持续使用 | 待讨论；尚无验证过的招募或留存效果 | [Issue #1](https://github.com/1708994293-hue/MCMC/issues/1) |
-| 2 | 内容与新成员体验 | 待讨论；主题链接、互动情况待核验 | [Issue #2](https://github.com/1708994293-hue/MCMC/issues/2) |
+| 2 | 内容与新成员体验 | 已落地欢迎页、三入口、三模板；互动与普通用户测试待验证 | [Issue #2](https://github.com/1708994293-hue/MCMC/issues/2) |
 | 3 | 使用体验与托管 | 待核验；无性能基线，未付费或迁移 | [Issue #3](https://github.com/1708994293-hue/MCMC/issues/3) |
-| 4 | 身份、隐私与权限 | 待讨论 / 待核验；邮箱限制未实施 | [Issue #4](https://github.com/1708994293-hue/MCMC/issues/4) |
-| 5 | 长期维护与交接 | 待分工；桌面副本与现站核验仍未完成 | [Issue #5](https://github.com/1708994293-hue/MCMC/issues/5) |
+| 4 | 身份、隐私与权限 | 已配置邮箱限制与五个自填字段；端到端测试、例外规则、角色复核待完成 | [Issue #4](https://github.com/1708994293-hue/MCMC/issues/4) |
+| 5 | 长期维护与交接 | 逐步 GitHub 日志已启用；维护分工与旧桌面副本仍待处理 | [Issue #5](https://github.com/1708994293-hue/MCMC/issues/5) |
 
 ## 看板使用约定
 
 [打开 MCMC Alumni Network Project](https://github.com/users/1708994293-hue/projects/1)。
 
-看板当前为私有，默认仓库为 MCMC，五个 Issues 已导入 Todo；未新增协作者。公开的 README 和 Issues 仍包含完整交接内容。
+看板当前为私有，默认仓库为 MCMC；五个 Issues 均保持开放，不因部分配置完成而关闭整个运营议题。未新增协作者。公开的 README、操作日志和 Issues 包含完整交接内容。
 
 - Todo：需要讨论、分工或核验，尚未实际开始。
 - In Progress：有人正在处理，需写明具体范围。
