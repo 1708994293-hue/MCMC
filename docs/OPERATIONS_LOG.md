@@ -173,3 +173,12 @@
 - 文档提交：[13a3583278749a701aef400874fc4d6ae6dfbbdc](https://github.com/1708994293-hue/MCMC/commit/13a3583278749a701aef400874fc4d6ae6dfbbdc)。8 个新增/更新文件的远端 Git blob SHA 与本地内容一致；主分支以预期旧提交校验更新，没有强制覆盖。
 - 本轮最终配置：must_approve_users=false；allowed_email_domains=um.edu.mo；字段 ID 3=MCMC cohort / 满珍届别，On signup 必填、注册显示、公开资料隐藏；欢迎主题修订 5。
 - 仍未验证真实新账号收信、完整注册/登录及普通发布；没有宣称该流程已实测。下次从 OP-021 继续。
+
+### OP-021 · 在 Project 页面发布组会进度汇总
+
+- 用户要求为次日会议汇报整理近期主要进展，直接汇总在当前页面，不单独创建文件。
+- 依据最新 CURRENT_STATE、前述操作日志和看板状态，将五项主要进展、验证边界和四个讨论问题发布为 [10月28日组会进度更新](https://github.com/users/1708994293-hue/projects/1/views/1?pane=info&statusUpdateId=300671)，Status update ID 300671。
+- 更新 Project 自身 README，清除邮箱限制尚未实施等过时说明，并提供汇报入口；不改变看板列状态、项目可见性或成员权限。
+- 重新加载后核对汇报全文和项目 README 均已保存；未声明普通新账号流程、卡顿或招募效果已经验证。没有选填项目健康状态或制造完成期限。
+- 在现有仓库 README、HANDOFF 和 Issue #5 增加汇报入口，明确这是会前材料而非会议纪要；没有另建报告文件。本地 README 同步时的文本转义失败已改用补丁完成，远端写入不受影响。
+- 本地效果截图 outputs/mcmc-meeting-summary-2026-10-27.png；下次从 OP-022 继续。
