@@ -68,3 +68,11 @@
 - 验证：保存后重新加载主题，三个入口、双语说明和第 4 版编辑历史均可见。首页此前的 Pinned 与个人已读后的 Unpinned 不混为同一状态，本次未改置顶范围。
 - 原文和更新后的 Markdown 保存在 docs/site-content，随本轮资料提交，便于回退；也可通过论坛编辑历史恢复第 3 版。
 - 证据：<https://mcmc-alumni.discourse.group/t/welcome-to-mcmc-alumni-network/5>。
+
+### OP-008 · 添加面向全站的三个快速入口
+
+- 修改前：侧栏只有通用 Topics 和部分分类，新用户缺少按目的进入的链接。
+- 修改后：创建 `Start here / 从这里开始` 自定义侧栏分区，并勾选 Visible to everyone。包含 Ask Alumni → 分类 6、Share Opportunity → 分类 9、Introduce Yourself → 主题 14。
+- 验证：保存后重新加载分类页，三个链接仍出现在侧栏；链接均指向此前核对过的真实站内目标。这里只增加导航，不更改目标页面的访问权限。
+- 回退：通过 Edit custom section 编辑或移除这一新建分区。
+- 证据：<https://mcmc-alumni.discourse.group/categories>。
