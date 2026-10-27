@@ -165,3 +165,11 @@
 - 说明满珍关系与届别不公开、资料自报非认证，专业/行业和可提供帮助仍选填，反垃圾检查继续生效。其余欢迎内容、作者和主题保持不变。
 - 验证：保存后刷新，帖子编辑历史由 4 变为 5，新的双语段落可见，无重复发帖。
 - 当前正文副本：docs/site-content/welcome.md；本次修改前副本：docs/site-content/welcome-before-auto-admission-2026-10-27.md。
+
+### OP-020 · 同步当前文档、关联 Issue 并核验提交
+
+- 更新 README 步骤 12、CURRENT_STATE、HANDOFF、AGENTS、BACKLOG、欢迎正文及其目录说明，保留此前阶段的历史记录，并显著标明最新规则覆盖旧审批状态。
+- 更新关联 Project 的 Issue #4：免人工审批与必填届别已完成；普通新用户端到端测试、邮箱例外和治理事项仍开放，未关闭整个 Issue。
+- 文档提交：[13a3583278749a701aef400874fc4d6ae6dfbbdc](https://github.com/1708994293-hue/MCMC/commit/13a3583278749a701aef400874fc4d6ae6dfbbdc)。8 个新增/更新文件的远端 Git blob SHA 与本地内容一致；主分支以预期旧提交校验更新，没有强制覆盖。
+- 本轮最终配置：must_approve_users=false；allowed_email_domains=um.edu.mo；字段 ID 3=MCMC cohort / 满珍届别，On signup 必填、注册显示、公开资料隐藏；欢迎主题修订 5。
+- 仍未验证真实新账号收信、完整注册/登录及普通发布；没有宣称该流程已实测。下次从 OP-021 继续。
